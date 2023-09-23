@@ -32,6 +32,48 @@ body {
     background: linear-gradient(45deg, #231fbf, #69175f);
     padding: 50px;
 }
+/* Add these CSS rules */
+body {
+    font-size: 16px; /* Adjust as needed for mobile readability */
+}
+
+/* Center-align text on mobile */
+.group p, .right_side .value {
+    text-align: center;
+}
+
+/* Make images responsive */
+.group .imgBx img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Reduce margin and padding */
+.container {
+    margin: 20px;
+    padding: 20px;
+}
+
+/* Adjust h2 font size for mobile */
+h2 {
+    font-size: 2em;
+}
+
+/* Reduce margin for h4 elements */
+h4 {
+    margin-top: 20px;
+}
+
+/* Additional margin adjustment for the education and work experience sections */
+.adjustMargin {
+    margin-top: 0;
+}
+
+/* Center-align education and work experience text on mobile */
+.edu_groupBx .value {
+    text-align: center;
+}
+
 
 h2 {
     font-size: 3em;
